@@ -124,6 +124,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ],
         onTap: (i) => handleTap(i),
         currentIndex: _currentIndex,
+        type: BottomNavigationBarType.fixed,
       ),
     );
   }
